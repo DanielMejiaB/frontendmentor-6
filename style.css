@@ -216,6 +216,7 @@ select {
 
 .hidden {
     opacity: 0;
+    visibility: hidden;
 }
 
 .hide {
@@ -241,7 +242,6 @@ select {
     animation-fill-mode: both;
     -webkit-animation-name: fadeOutRight;
     animation-name: fadeOutRight;
-    visibility: hidden;
 }
 
 .showRight {
@@ -250,6 +250,7 @@ select {
     animation-fill-mode: both;
     -webkit-animation-name: fadeInRight;
     animation-name: fadeInRight;
+    visibility: visible;
 }
 
 .showDown {
